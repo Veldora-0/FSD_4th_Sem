@@ -1,0 +1,13 @@
+console.log("Hello, World!");
+console.log(3+4);
+console.error("j");
+console.warn("k");
+let a = 10;
+a=20;
+console.log(a);
+var b = 10;
+b=20;
+console.log(a);
+const c = 10;
+c = 20;
+console.log(a);
