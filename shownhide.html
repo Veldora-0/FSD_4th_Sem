@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="text"> Hello World</p>
+    <button onclick="toggletext() "> Show /Hide</button>
+    <script>
+        function toggletext() {
+            // using document object model (DOM){create structure what we have to see on website} + event is click
+            let t = document.getElementById("text");
+            if (t.style.display === "none") {
+                t.style.display = "block";
+            }
+            else {
+                t.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
